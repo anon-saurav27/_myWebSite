@@ -1,7 +1,29 @@
 {
   "dependencies": {
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9",
     "react-icon": "^1.0.0",
     "react-icons": "^5.4.0",
     "react-router-dom": "^7.1.1"
-  }
+  },
+  "name": "_mywebsite",
+  "version": "1.0.0",
+  "description": "Mern portfolio website",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon api/index.js",
+    "start": "node api/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anon-saurav27/_myWebSite.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anon-saurav27/_myWebSite/issues"
+  },
+  "homepage": "https://github.com/anon-saurav27/_myWebSite#readme"
 }
