@@ -1,12 +1,6 @@
 import { Footer } from "flowbite-react";
 import { Link } from "react-router-dom";
-import {
-  BsFacebook,
-  BsInstagram,
-  BsTwitter,
-  BsGithub,
-  BsLinkedin,
-} from "react-icons/bs";
+import { BsFacebook, BsInstagram, BsGithub, BsLinkedin } from "react-icons/bs";
 
 export default function FooterCom() {
   return (
@@ -112,10 +106,30 @@ export default function FooterCom() {
             year={new Date().getFullYear()}
           />
           <div className="flex gap-6 sm:mt-0 mt-4 sm:justify-center">
-            <Footer.Icon href="https://www.facebook.com/saurav.130.giri" target="blank" rel="noopener noreferrer" icon={BsFacebook} />
-            <Footer.Icon href="https://www.instagram.com/sauravgiri_27/" target="blank" rel="noopener noreferrer" icon={BsInstagram} />
-            <Footer.Icon href="https://github.com/anon-saurav27" target="blank" rel="noopener noreferrer" icon={BsGithub} />
-            <Footer.Icon href="https://www.linkedin.com/in/saurav-giri-3b3a62288/" target="blank" rel="noopener noreferrer" icon={BsLinkedin} />
+            <Footer.Icon
+              href="https://www.facebook.com/saurav.130.giri"
+              target="blank"
+              rel="noopener noreferrer"
+              icon={BsFacebook}
+            />
+            <Footer.Icon
+              href="https://www.instagram.com/sauravgiri_27/"
+              target="blank"
+              rel="noopener noreferrer"
+              icon={BsInstagram}
+            />
+            <Footer.Icon
+              href="https://github.com/anon-saurav27"
+              target="blank"
+              rel="noopener noreferrer"
+              icon={BsGithub}
+            />
+            <Footer.Icon
+              href="https://www.linkedin.com/in/saurav-giri-3b3a62288/"
+              target="blank"
+              rel="noopener noreferrer"
+              icon={BsLinkedin}
+            />
           </div>
         </div>
       </div>
